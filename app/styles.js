@@ -39,10 +39,6 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     color: "#374151",
   },
-  picker: {
-    width: "100%",
-    height: 44,
-  },
   button: {
     backgroundColor: "#4CAF50",
     paddingVertical: 14,
