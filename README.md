@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Calculadora de IMC (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Descrição
 
-## Get started
+Este projeto é um aplicativo móvel simples desenvolvido em **React Native com Expo**, que permite calcular o **Índice de Massa Corporal (IMC)**.  
 
-1. Install dependencies
+O app recebe o **peso** e a **altura** do usuário, calcula o IMC e retorna a classificação correspondente:  
+- Abaixo do peso  
+- Peso normal  
+- Sobrepeso  
+- Obesidade  
 
-   ```bash
-   npm install
-   ```
+O objetivo é fornecer uma ferramenta prática para acompanhamento de métricas de saúde de forma rápida e intuitiva.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Funcionalidades
 
-In the output, you'll find options to open the app in a
+- Inserção de peso em kg e altura em metros ou centímetros  
+- Conversão automática de cm → m  
+- Suporte a entradas com vírgula ou ponto  
+- Cálculo do IMC com classificação  
+- Interface simples e responsiva  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tecnologias utilizadas
 
-## Get a fresh project
+- React Native  
+- Expo  
+- TypeScript  
+- Git/GitHub  
 
-When you're ready, run:
+---
+
+## Instalação e execução
+
+1. Clone o repositório:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/PedroSehn/Calculador-IMC
